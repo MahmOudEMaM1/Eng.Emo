@@ -24,9 +24,3 @@ This project implements a real-time virtual keyboard controlled by hand gestures
 - **Integrated Chatbot**: Provides an AI chatbot using Google Generative AI for user interaction.  
 - **Web-based Interface**: Real-time video streaming of hand gestures, with immediate feedback on typed text and chatbot responses.
 
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
