@@ -1,18 +1,32 @@
-# Gesture-Controlled AI-Powered Virtual Keyboard and Chatbot
-(English & Arabic)
+# Gesture-Controlled AI-Powered Virtual Keyboard and Chatbot  
+*(English & Arabic)*
 
--Objective:
-  Developed a real-time virtual keyboard controlled by hand gestures, supporting English and Arabic typing, with AI-driven text suggestions and integrated chatbot functionality.
+## Objective  
+This project implements a real-time virtual keyboard controlled by hand gestures, supporting both English and Arabic typing, with AI-driven text suggestions and an integrated chatbot.
 
--Technologies:
-  Python, Flask, OpenCV, MediaPipe, Google Generative AI, Flask-CORS, Arabic Reshaper, Bidi Algorithm.
+## Technologies  
+- **Languages**: Python  
+- **Framework**: Flask  
+- **Libraries**:  
+  - OpenCV (for hand gesture detection)  
+  - MediaPipe (for hand-tracking)  
+  - Google Generative AI (for text suggestions and chatbot integration)  
+  - Flask-CORS (for handling cross-origin requests)  
+  - Arabic Reshaper (for proper Arabic text reshaping)  
+  - Bidi Algorithm (for handling right-to-left Arabic text)  
+  - NumPy and PIL (for image processing and rendering)
 
--Key Features:
+## Key Features  
+- **Real-time Hand Gesture Detection**: Utilizes OpenCV and MediaPipe for accurate hand-tracking and gesture recognition.  
+- **Dual-Language Virtual Keyboard**: Supports seamless switching between English and Arabic layouts.  
+- **AI-Powered Text Suggestions**: Integrated Google Generative AI provides real-time text suggestions and autocompletion in both languages.  
+- **Arabic Text Reshaping**: Implements Arabic Reshaper and Bidi Algorithm to ensure proper alignment and display of Arabic text.  
+- **Integrated Chatbot**: Provides an AI chatbot using Google Generative AI for user interaction.  
+- **Web-based Interface**: Real-time video streaming of hand gestures, with immediate feedback on typed text and chatbot responses.
 
-  Real-time hand gesture detection using OpenCV and MediaPipe.
-  Dual-language virtual keyboard with seamless switching between English and Arabic.
-  AI-powered text suggestions and autocompletion.
-  Arabic text reshaping for proper display and alignment.
-  Integrated AI chatbot using Google Generative AI for real-time user interaction.
-  Web-based interface with live streaming, virtual typing feedback, and chatbot responses.
+## Installation
 
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
